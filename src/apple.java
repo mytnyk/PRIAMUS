@@ -97,7 +97,7 @@ class AppleStub implements AppletStub {
         if (name.equals("sourceData"))
             return ".\\_data_\\";
         if (name.equals("locale"))
-            return "uk";
+            return "en";
         return null;
     }
 
